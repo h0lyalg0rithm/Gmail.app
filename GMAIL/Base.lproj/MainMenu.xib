@@ -678,7 +678,9 @@
                 <subviews>
                     <webView translatesAutoresizingMaskIntoConstraints="NO" id="HQb-7U-4z8">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="767"/>
-                        <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12"/>
+                        <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12">
+                            <nil key="identifier"/>
+                        </webPreferences>
                     </webView>
                 </subviews>
                 <constraints>
